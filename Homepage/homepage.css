@@ -196,6 +196,32 @@ color: #a999c2;
     margin-top: 3rem;
     border-radius: 0.5rem;
 }
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.pag-btn{
+    padding: 7px 16px;
+    border: 2px solid var(--second-color);
+    border-radius: 40px;
+    color: var(--second-color);
+    font-weight: 500;
+    cursor: pointer;
+    background-color: var(--main-color);
+}
+
+.pag-btn:hover{
+    background: #ebdbc8;
+    color: var(--second-color);
+}
+
+
+
 .shop-container .box .box-img{
     width: 150px;
     height: 150px;
@@ -281,16 +307,16 @@ color: #a999c2;
     background-color: var(--main-color);
 }
 .links{
-    margin: 1rem 0 0rem;
+    margin: 1rem 0rem 1rem 0rem;
 }
 .links a{
     font-size: 1rem;
     font-weight: 500;
-    color: var(--second-color);
+    color: var(--main-color);
     padding: 1rem;
 }
 .links a:hover{
-    color: var(--second-color);
+    color: var(--main-color);
 }
 .content p{
     text-align: center;
@@ -299,6 +325,8 @@ color: #a999c2;
 .title{
     margin-bottom: 2rem;
 }
+
+
 
 
 
