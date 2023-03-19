@@ -281,12 +281,12 @@ color: #a999c2;
     background-color: var(--main-color);
 }
 .links{
-    margin: 1rem 0 0rem;
+    margin: 1rem 0 1rem;
 }
 .links a{
     font-size: 1rem;
     font-weight: 500;
-    color: var(--second-color);
+    color: var(--main-color);
     padding: 1rem;
 }
 .links a:hover{
