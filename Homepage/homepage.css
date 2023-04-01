@@ -290,7 +290,7 @@ color: #a999c2;
     padding: 1rem;
 }
 .links a:hover{
-    color: var(--second-color);
+    color: #a999c2;
 }
 .content p{
     text-align: center;
